@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- *_strcat - concatenate 2 strings
+ *_strcat - links 2 strings
  *@dest: is a character
  *@src: is a character
  *Return: dest concatenated strind
@@ -22,7 +22,7 @@ char *_strcat(char *dest, char *src)
 }
 
 /**
- * args_path - concatenates the arguments
+ * args_path - links the arguments in a chain
  * @parse: is a char
  * @new: is a char
  * Return: total or null

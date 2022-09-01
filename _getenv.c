@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * length - function that checks the = character
+ * length - this function checks the = character
  * @str: is a char
  * Return: str
  */
@@ -16,7 +16,7 @@ char *length(char *str)
 }
 
 /**
- * compare - function that compares two strings
+ * compare - this function compares two strings
  * @varname: is a char
  * @dirname: is a char
  * Return: 1
@@ -35,7 +35,7 @@ int compare(char *varname, char *dirname)
 }
 
 /**
- * _getenv - function that gets the path in the environ
+ * _getenv - this function gets the path in the environ
  * @environ: global variable
  * @dirname: is a char
  * Return: final or null
