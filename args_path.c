@@ -4,7 +4,7 @@
  *_strcat - links 2 strings
  *@dest: is a character
  *@src: is a character
- *Return: dest concatenated strind
+ *Return: destination of linked string
  */
 
 char *_strcat(char *dest, char *src)
@@ -25,7 +25,7 @@ char *_strcat(char *dest, char *src)
  * args_path - links the arguments in a chain
  * @parse: is a char
  * @new: is a char
- * Return: total or null
+ * Return: total/null
  */
 
 char *args_path(char **parse, char **new)
